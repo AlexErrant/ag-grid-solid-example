@@ -11,9 +11,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "4.7.3",
-    "vite": "3.0.9",
-    "vite-plugin-solid": "2.3.0"
+    "typescript": "~5.0.4",
+    "vite": "^4.1.4",
+    "vite-plugin-solid": "^2.7.0"
   },
   "private": true,
   "dependencies": {
@@ -32,7 +32,7 @@
     "@ag-grid-enterprise/charts": "~30.0.2",
     "@ag-grid-enterprise/clipboard": "~30.0.2",
     "@ag-grid-enterprise/excel-export": "~30.0.2",
-    "@solidjs/router": "^0.4.3",
-    "solid-js": "1.5.3"
+    "@solidjs/router": "^0.8.2",
+    "solid-js": "^1.7.3"
   }
 }

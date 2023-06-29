@@ -40,6 +40,7 @@ const App: Component = () => {
     return (
         <div class="ag-theme-alpine" style={{height: '500px'}}>
             <AgGridSolid
+                sideBar={true}
                 columnDefs={columnDefs}
                 rowData={rowData()}
                 defaultColDef={defaultColDef}
